@@ -1,0 +1,408 @@
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            transition: all 1s;
+        }
+
+      .contact-manu{
+        display: flex;
+        justify-content: space-evenly;
+        flex-flow: wrap;
+
+        
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        height: max-content;
+        width: 100%;
+        padding: 8px 0px;
+        
+
+      }
+      .contact-first-logo{
+        height: 50px;
+      }
+      .contact-call-logo{
+        display: flex;
+        align-items: center;
+        
+        color: white;
+        border: 0.8px solid black;
+        border-radius: 0px;
+        padding: 8px;
+      }
+      .contact-call-img{
+        height: 40px;
+      }
+      .contact-male-logo{
+        display: flex;
+        align-items: center;
+
+        color: white;
+        text-decoration: underline;
+        border: 0.8px solid black;
+        border-radius: 0px;
+        padding: 0px 4px;
+      }
+      .contact-male-img{
+        height:40px;
+      }
+
+     .contact-contact-us{
+        display: flex; 
+        justify-content: space-evenly;
+        align-items: center;
+        place-items: center;
+        
+
+        border: 0.8px solid rgb(255, 255, 255);
+        border-radius: 0px;
+        padding: 8px;
+     }
+      .contact-twit-a{
+        height: 30px;
+      }
+    .horz-line{
+      width: 100%;
+      height: 1px;
+      background-color: rgb(255, 255, 255);
+    }
+   
+    .nav-logo-img{
+      height: 50px;
+    }
+    
+    .nav-p1,.nav-p2,.nav-p3{
+      text-transform: uppercase;
+      background-color: transparent;
+      margin-left: 10px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .nav-p1{
+      color: #0A56A8;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .nav-p2{
+      color:#01C6D9;
+      font-weight: bold;
+      text-decoration: underline;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .nav-p3{
+      color:#000000;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+    }
+   
+    .main-nav-links{
+      display: flex;
+      flex-flow: wrap;
+    }
+    
+    .main-nav-links{
+      
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      place-content: center;
+    }
+    .main-nav-a a{
+      
+      margin: 5px;
+      text-transform: capitalize;
+      text-decoration: none;
+      padding: 1px;
+      border: 1px solid black;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .main-nav-a a:hover{
+      
+      margin: 5px;
+      text-transform: capitalize;
+      text-decoration: none;
+      padding: 5px;
+      border: 1px solid black;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .main-nav-bar{
+      padding: 8px 0px;
+      
+    }
+   .for-log-and-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    place-items: center;
+    place-content: center;
+   }
+
+   .second-contanier-seprator{
+    display: flex;
+    justify-content: space-around;
+   }
+   .third-image{
+    height: 80px;
+  
+   }
+   .third-img-div{
+    border: 1px black solid;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    background-color: #00eaff60;
+   }
+   .third-semi-con{
+    align-items: center;
+    display: flex;
+    margin:5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }   
+   .third-contant{
+    display: flex;
+    flex-direction: column;
+    
+   }
+  /* footer css*/
+  .footer{
+    background-color:#0A56A8;
+    display: flex;
+    flex-flow: wrap;
+    margin-top: 30px;
+    justify-content: center;
+    margin-left: 10%;
+
+    margin-right: 10%;
+  }
+  .ft-1{
+    padding: 10px;
+    border: 0.9px black solid;
+
+    margin: 10px 5px;
+    color: white;
+    font-size: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .ft-2{
+    padding: 10px;
+    border: 0.9px black solid;
+    margin: 10px 5px;
+    color: white;
+    font-size: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .ft-3{
+    padding: 10px;
+    border: 0.9px black solid;
+    margin: 10px 5px;
+    color: white;
+    font-size: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .ft-4{
+    padding: 10px;
+    border: 0.9px black solid;
+    margin: 10px 5px;
+    color: white;
+    font-size: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+    .login-form{
+      display: flex;
+     flex-flow: column;
+     
+     text-align: center;
+      padding: 25px 10px;
+    }
+    .login-form input{
+        border-radius: 10px;
+        text-align: center;
+      height: 25px;
+      background-color: rgba(86, 97, 94, 0.161);
+      margin: 5px 20%;
+      color: white;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .login-form textarea{
+        text-align: center;
+        place-content: center;
+        align-items: center;
+      margin: 5px 20%;
+      color: rgb(0, 0, 0);
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .submit-clas:hover{
+        cursor: pointer;
+        box-shadow: #000000 2px 2px 8px;
+        }
+    .header-tag{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .main_scroll_bar{
+      display: flex;
+      overflow: hidden;
+      overflow-x: scroll;
+      margin-bottom: 30px;
+      margin-top: 30px;
+    }
+    
+    .child_bar15 p{
+      text-align: center;
+      font-size: 25px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .cover_child_bar img{
+      height: max-content;
+      
+      height: 150px;
+      margin: 10px 20px;
+    }
+    .scroll-div-img{
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .scroll-div-img h2{
+      font-size: 40px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .semi-footer-dec{
+      width: 100%;
+      display: flex;
+      text-align: center;
+    }
+    .semi-footer-dec p{
+      margin: auto;
+      font-family: monospace;
+      border: 0.8px rgb(16, 196, 228) solid;
+      padding: 8px;
+    }
+
+ 
+
+       /* media quary*/
+       /* large screen */
+       @media screen and (min-width: 711px) {
+        .contact-manu{
+          height: max-content;  
+          background-color: rgb(255, 255, 255);
+          background: linear-gradient(120deg, #01C6D9 0%, #109ECC 100%,#206BC8 100%) ;         
+        }
+        .main-banner-image{
+          width: 100%;
+        }
+        .nav-logo-img{
+          height: 80px;
+        }
+        .main-nav-a a{
+          margin: 5px;
+          color: black;
+          text-transform: capitalize;
+          text-decoration: none;
+          padding: 1px;
+          border: 1px solid black;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        /* third contanier */
+        .third-contaner{
+          display: flex;
+          background-color: #00eaff60;
+         }
+
+
+       
+      }
+@media screen and (max-width: 710px) {
+  /* small screen */
+  .third-contaner{
+    
+    background-color: #00eaff60;
+   }
+  .contact-manu{
+    
+    background-color: rgb(255, 255, 255);
+    background: linear-gradient(120deg, #01C6D9 0%, #109ECC 100%,#206BC8 100%) ;
+  }
+
+  .contact-logo-img{
+    margin: 5px;
+  }
+  .contact-call-logo{
+    margin: 5px;
+  }
+  .main-banner-image{
+    width: 100%;
+    height: 250px;
+  }
+  .nav-p1,.nav-p2,.nav-p3{
+    text-transform: uppercase;
+    background-color: transparent;
+    margin-left: 10px;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .nav-p1{
+    font-size: 12px;
+    color: #0A56A8;
+    font-family: 'Times New Roman', Times, serif;
+  }
+ .nav-p2{
+  text-decoration: underline;
+  font-size: 10px;
+  color: #01C6D9;
+  font-family: 'Times New Roman', Times, serif;
+ }
+ .nav-p3{
+  
+  font-size: 10px;
+  color: #000000;
+  font-family: 'Times New Roman', Times, serif;
+ }
+  .semi-nav-bar,.nav-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+  }
+ 
+  .main-nav-links a{
+    color: rgb(57, 11, 11);
+    border: none;
+    text-decoration: underline;
+    
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  /*very small screen */
+ 
+
+  .contact-first-logo{
+   height: 30px;
+  }
+  .contact-call-img{
+   height: 20px;
+  }
+  .contact-male-img{
+    height: 20px;
+    padding: 0px;
+  }
+  .contact-twit-a{
+    height: 18px;
+    padding: 0%;
+    margin: 0%;
+  }
+  .main-banner-image{
+    width: 100%;
+    height: 200px;
+  }
+}
+    
